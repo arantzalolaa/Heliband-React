@@ -1,0 +1,16 @@
+@import "./fonts.css";
+@import "./tailwind.css";
+@import "./theme.css";
+
+/* --- AGREGA ESTO AQUÍ ABAJO --- */
+
+/* Utilidad para ocultar la barra de scroll en Chrome, Safari y Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Utilidad para ocultar la barra de scroll en Firefox, IE y Edge */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}
